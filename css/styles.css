@@ -1,0 +1,154 @@
+/* HTML elements css below */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+}
+
+nav {
+    z-index: 1 !important;
+}
+
+/* HTML elements css below */
+
+/* Header/navigation bar css below */
+#header-img {
+    width: 25vw;
+}
+
+.nav-link {
+    margin: 0 3vw;
+}
+
+@media only screen and (max-width: 380px) {
+    #header-img {
+        width: 50vw;
+    }
+}
+/* Header/navugation bar css below */
+
+/* first section css below */
+#first-section {
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 770px){
+    #first-section {
+        text-align: center;
+        margin-top: 10vh;
+    }
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 5vw;
+}
+
+input[type=email] {
+    position: relative;
+    right: 4vw;
+    margin-top: 1vw;
+}
+
+.btn {
+    margin-top: 2%;
+    margin-right: 7vw;
+}
+/* first section css above */
+
+/* Second section css below */
+#second-section {
+    margin: 30vh auto 2vh 17vw;
+    width: 65%;
+    text-align: center justify;
+    
+}
+
+.row1 {
+    margin-bottom: 6vh;
+}
+
+.premium-icon {
+    font-size: 7vw;
+    color: #0275d8;
+    padding-left: 3vw;
+}
+
+.premium-material {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 380px) {
+    .premium-icon {
+        font-size: 20vw;
+        margin-left: 55px;
+        color: #0275d8; 
+    }
+
+    .premium-material {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 3%;
+        padding-left: 2vw;
+    }
+
+    #second-section {
+        margin: 20vh auto 2vh 17vw;
+        width: 80%;
+        text-align: center justify;
+        
+    }
+}
+
+/* Second section css above */
+
+/* Third section css below */
+#howItWorks {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding-bottom: 8vh;
+}
+
+@media only screen and (max-width: 380px) {
+    #howItWorks {
+        display: block;
+        margin: 0 auto;
+        margin-top: 4%;
+        width: 85%;
+    }
+}
+/* Third section css above */
+
+/* Fourth section css below */
+#card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    line-height: 8vh;
+} 
+
+.middleCard {
+    margin: 0 2vw 0 2vw;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+/* Fourth section css  above */
+
+/* Footer css below */
+.last-section {
+    background-color: rgba(0, 0, 0, 0.123);
+    margin-top: 5vh;
+    width: 68.3%;
+    margin: auto;
+}
+/* Footer css below */
