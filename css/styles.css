@@ -8,6 +8,10 @@ nav {
     z-index: 1 !important;
 }
 
+img {
+    background-color: #228eec !important;
+}
+
 /* HTML elements css below */
 
 /* Header/navigation bar css below */
