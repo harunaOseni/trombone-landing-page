@@ -10,8 +10,8 @@ nav {
 
 img {
     background-color: #228eec !important;
+    border-radius: 7px;
 }
-
 /* HTML elements css below */
 
 /* Header/navigation bar css below */
@@ -26,6 +26,12 @@ img {
 @media only screen and (max-width: 380px) {
     #header-img {
         width: 50vw;
+    }
+
+    img {
+        background-color: #228eec !important;
+        border-radius: 10px;
+        height: 30px;
     }
 }
 /* Header/navugation bar css below */
